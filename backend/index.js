@@ -11,7 +11,7 @@ import db from './config/db.js';
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://studio.apollographql.com'],
+    origin: ['https://fullstack-todo-application.vercel.app', 'https://studio.apollographql.com'],
     credentials: true
   }));
   
